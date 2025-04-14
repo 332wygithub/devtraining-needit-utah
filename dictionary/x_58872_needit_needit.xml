@@ -10,8 +10,11 @@
                 <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal2"/>
                 <element inactive_on_update="false" label="Your Department Choice 1" sequence="6" value="your_choice1"/>
                 <element inactive_on_update="false" label="Your Department Choice 2" sequence="7" value="your_choice2"/>
+                <element inactive_on_update="false" label="Other" value="1"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other1" type="string"/>
         <element label="When needed" mandatory="true" max_length="40" name="u_when_needed1" type="glide_date_time"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for1" reference="x_58872_needit_user__sys_user_" type="reference"/>
         <element choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type1" type="choice">

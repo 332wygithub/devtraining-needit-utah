@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="4aa07f98c338a6107b2cfe1d050131bb" label="User [sys_user]" max_length="40" name="x_58872_needit_user__sys_user_" type="collection"/>
+    <element db_object_id="4aa07f98c338a6107b2cfe1d050131bb" label="User [sys_user]" max_length="40" name="x_58872_needit_user__sys_user_" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Text" max_length="200" name="text" type="string"/>
+    </element>
 </database>
